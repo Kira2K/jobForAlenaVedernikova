@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
+
+body {
+  background-color: #f9f9f9;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+
+  &__container {
+    width: calc(100% - 250px);
+    margin: 0px 125px;
+    display: flex;
+    justify-content: center;
+  }
+  &__content {
+    width: 1060px;
+  }
+
+  &__title {
+    margin-top: 60px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+    color: #cc4052;
+  }
+}
+
+.single {
+  margin-top: 60px;
+  width: 520px;
+  background-color: #fff;
+  &__head {
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e3e3e3;
+  }
+
+  &__title {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    margin-left: 42px;
+  }
+
+  &__btn {
+    width: 50px;
+    height: 50px;
+    background-color: #4943cd;
+    border-radius: 7px;
+    margin-right: 37px;
+  }
+
+  &__content {
+    height: 540px;
+    background-image: url("./assets/background1.png");
+    padding: 34px 40px 50px 40px;
+    background-repeat: no-repeat;
+  }
+
+  &__description {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 28px;
+    color: #7d879c;
+  }
+
+  &__list {
+    margin-top: -5px;
+  }
+  &__list-elem {
+    margin-top: 38px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    list-style: none;
+
+    &::before {
+      content: "";
+      background-image: url("./assets/list.svg");
+      background-repeat: no-repeat;
+      font-weight: bold;
+      display: inline-block;
+      width: 26px;
+      height: 10px;
+    }
+  }
+}
+
+// Дефолтное обнуление
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}

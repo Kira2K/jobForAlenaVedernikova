@@ -1,0 +1,27 @@
+doctype html
+html
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=2.0")
+    title Document
+    link(rel="stylesheet" href="index.scss")
+
+  body
+
+    div.main
+    div.main__container
+      div.main__content
+        h1.main__title Рыба-текст
+
+        div.single  
+          div.single__head 
+            p.single__title Рыба текст
+            button.single__btn
+              img.single__btn-img(src="./assets/btn.svg")
+          div.single__content
+            div.single__description текст текст текст текст текст текст текст текст текст текст текст текст текст текст 
+            
+            ul.single__list
+            - for (var x = 0; x < 7; x++)
+
+              li.single__list-elem текст текст
